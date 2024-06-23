@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('/IGatitos/fonts/Cattyla.ttf') format('truetype');
+}
+
+/* Usar la fuente */
+body {
+    font-family: 'MiFuente', sans-serif;
+    cursor: url('https://cdn.custom-cursor.com/db/4656/32/arrow2662.png'), default !important;
+}
+
+a:hover, input:hover, button:hover {
+    cursor: url('https://cdn.custom-cursor.com/db/4655/32/arrow2662.png'), pointer !important;
+}
