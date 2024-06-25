@@ -2,6 +2,10 @@
     font-family: 'MiFuente';
     src: url('/IGatitos/fonts/Cattyla.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'MiFuente2';
+    src: url('/IGatitos/fonts/Cat paw.ttf') format('truetype');
+}
 
 /* Usar la fuente */
 body {
@@ -12,3 +16,22 @@ body {
 a:hover, input:hover, button:hover {
     cursor: url('https://cdn.custom-cursor.com/db/4655/32/arrow2662.png'), pointer !important;
 }
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Esto asegura que el contenedor sea cuadrado */
+    overflow: hidden;
+  }
+  
+  .square-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto recorta la imagen para que se ajuste al contenedor */
+  }
+
+.titulo {
+    font-family: 'MiFuente2', sans-serif !important; 
+  }
